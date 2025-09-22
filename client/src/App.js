@@ -5,14 +5,15 @@ import Requests from "./pages/Requests";
 import Donors from "./pages/Donors";
 import Inventory from "./pages/Inventory";
 import Reports from "./pages/Reports";
+import Footer from "./components/Footer"
 
 function App() {
   return (
     // <BrowserRouter>
     <div className="App">
       <NavBar/>
-      <div className='mt-16 '>
-<Routes>
+      <div className = "mt-[64px]">
+      <Routes>
         <Route path = "/home" element = {<Home />} />
         <Route path = "/donors" element = {<Donors />} />
         <Route path = "/inventory" element = {<Inventory />} />
@@ -20,7 +21,7 @@ function App() {
         <Route path = "/reports" element = {<Reports />} />
       </Routes>
       </div>
-      
+      <Footer/>
     </div>
     // {/* </BrowserRouter> */}
   );

@@ -3,11 +3,11 @@ import Customnavbar from "../components/Customnavbar/Customnavbar";
 
 const NavBar = () => {
   const navLinks = [
-    { label: "🏠 Home", path: "/home" },
-    { label: "👥 Donors", path: "/donors" },
-    { label: "🩸 Inventory", path: "/inventory" },
-    { label: "📩 Requests", path: "/requests" },
-    { label: "📊 Reports", path: "/reports" }
+    { label: "Home", path: "/home" },
+    { label: "Donors", path: "/donors" },
+    { label: "Inventory", path: "/inventory" },
+    { label: "Requests", path: "/requests" },
+    { label: "Reports", path: "/reports" }
   ];
 
   return (
